@@ -22,13 +22,13 @@ int main () {
     cin >> SAL;
 
     if (CAT == 3 || CAT == 4){
-        if (ANT < 5){
+        if (ANT > 5){
             RES = 1;
         }
     }
 
     if (CAT == 2){
-        if (ANT < 7){
+        if (ANT > 7){
             RES = 1;
         }
     }
