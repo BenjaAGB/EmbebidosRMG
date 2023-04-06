@@ -15,10 +15,10 @@ int main () {
     cout << "Ingrese la categoria del empleado :";
     cin >> CAT;
 
-    cout << "Ingrese la antiguedad del trabajador";
+    cout << "Ingrese la antiguedad del trabajador :";
     cin >> ANT;
 
-    cout << "Ingrese el salario del trabajador";
+    cout << "Ingrese el salario del trabajador :";
     cin >> SAL;
 
     if (CAT == 3 || CAT == 4){
@@ -34,10 +34,10 @@ int main () {
     }
 
     if (RES == 1){
-        cout << "Reune las condiciones";
+        cout << "Felicidades, reune las condiciones para el trabajo";
     }
     else{
-        cout << "No reune las condicines";
+        cout << "Lamentablemente, no reune las condicines";
     }
 
     return 0;
