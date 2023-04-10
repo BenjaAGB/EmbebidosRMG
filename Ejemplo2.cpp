@@ -1,17 +1,14 @@
 #include<iostream>
-
 using namespace std;
-
 int main() {
-    int FA;
     int S;
-
-    cout << "/n Ingrese el numero de sonidos emitidos por minuto : ";
+    cout << "\n Ingrese el numero de sonidos emitidos por minuto : ";
     cin >> S;
+    float FA = S*(0.25) + 40;
 
-    FA = S*(1/4) + 40;
+    cout << "\n La temperatura en Fahrenheit es : " << FA << "[F]";
 
-    cout << "/n La temperatura en Fahrenheit es : " << FA << "[F]" << endl;
-
+    float CE = (FA - 32.0) * 5/9;
+    cout << "\n La temperatura en Celcius es de : "<< CE<< "[C]";
     return 0;
 }
